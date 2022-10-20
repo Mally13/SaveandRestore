@@ -34,6 +34,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         Log.d(TAG, "onCreate")
+//        if(savedInstanceState !=null){
+//            discountCode.text = savedInstanceState.getString(DISCOUNT_CODE,"")
+//            //Get the discount confirmation message or an empty string if it hasn't been set
+//            discountCodeConfirmation.text =
+//                savedInstanceState.getString(
+//                    DISCOUNT_CONFIRMATION_MESSAGE,"")
+//        }
 
         // here we handle the Button onClick event
         discountButton.setOnClickListener {
